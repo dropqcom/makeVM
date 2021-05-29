@@ -2,6 +2,7 @@
 
 # copies lfi.php and lfi_script.sh to vm over ssh and runs lfi_script.sh
 
+vboxmanage modifyvm ${VMNAME} --natpf1 "HTTP,tcp,,8800,,80"
 vboxmanage startvm ${VMNAME} --type headless
 echo "[*] waiting for vm to come up"
 sleep 8 
