@@ -9,11 +9,12 @@ systemctl restart apache2
 
 
 
-mkdir /var/www/html/lfi 
-mv /root/lfi.php /var/www/html/lfi/
+rm /var/www/html/index.html
+mv /root/index.php /var/www/html/
+mv /root/lfi.php /var/www/html/
 
 echo "[*] restarting apache2"
-systemctl apache2 restart
+systemctl restart apache2
 echo "[*] sleeping for 5 sec..."
 sleep 5
 echo "[*] changing priority for /var/log/apache2"
