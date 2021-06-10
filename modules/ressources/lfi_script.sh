@@ -11,7 +11,12 @@ systemctl restart apache2
 
 rm /var/www/html/index.html
 mv /root/index.php /var/www/html/
-mv /root/lfi.php /var/www/html/
+mv /root/contact.php /var/www/html/
+mv /root/footer.php /var/www/html/
+mv /root/menu.php /var/www/html/
+mv /root/products.php /var/www/html/
+mv /root/garden_index.jpeg /var/www/html/
+mv /root/flower* /var/www/html/
 
 echo "[*] restarting apache2"
 systemctl restart apache2

@@ -13,5 +13,11 @@ scp -P 2200 -i ${TMPDIR}/rootkey ${RESOURCEDIR}/contact.php root@127.0.0.1:/root
 scp -P 2200 -i ${TMPDIR}/rootkey ${RESOURCEDIR}/footer.php root@127.0.0.1:/root/
 scp -P 2200 -i ${TMPDIR}/rootkey ${RESOURCEDIR}/menu.php root@127.0.0.1:/root/
 scp -P 2200 -i ${TMPDIR}/rootkey ${RESOURCEDIR}/products.php root@127.0.0.1:/root/
+scp -P 2200 -i ${TMPDIR}/rootkey ${RESOURCEDIR}/garden_index.jpeg root@127.0.0.1:/root/
+scp -P 2200 -i ${TMPDIR}/rootkey ${RESOURCEDIR}/flower1.jpeg root@127.0.0.1:/root/
+scp -P 2200 -i ${TMPDIR}/rootkey ${RESOURCEDIR}/flower2.jpeg root@127.0.0.1:/root/
+scp -P 2200 -i ${TMPDIR}/rootkey ${RESOURCEDIR}/flower3.jpeg root@127.0.0.1:/root/
+scp -P 2200 -i ${TMPDIR}/rootkey ${RESOURCEDIR}/flower4.jpeg root@127.0.0.1:/root/
+
 
 ssh -p 2200 -i ${TMPDIR}/rootkey root@127.0.0.1 "bash /root/lfi_script.sh"

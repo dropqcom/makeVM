@@ -5,7 +5,7 @@
 </div>
 
 <body>
-	<p> Products page </p>
+	<h1> Take a look at all my products... </h1>
 </body>
 
 <div class="footer">
