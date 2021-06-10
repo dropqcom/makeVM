@@ -1,17 +1,25 @@
-<!DOCTYPE html>
-<html>
-<div class="menu">
-	<?php include 'menu.php';?>
-</div>
+<?php
+	echo '<html>';
+	echo '<div class="menu">';
+		include("menu.php");
+	echo '</div>';
 
-<body>
-	<p> Test page, this should be the home page / landing page </p>
-	<p> http://127.0.0.1/lfi.php </p>
-	<p> we need to integrate the vulnerability inside lfi.php to this website </p>
-</body>
+	echo '</br>';
+	echo 'Hello';
+	echo '<body>
+		<a href="index.php?page=contact.php"><button>Show Contact</button></a>
+		</body>
+		</html>
+		';
+	echo '</br>';
+	$page = $_GET['page'];
+	include($page);
+	echo '</br>';
 
-<div class="footer">
-	<?php include 'footer.php'; ?>
-</div>
-</html>
+	echo '<div class=footer>';
+		include("footer.php");
+	echo '</div>';
+?>
+
+
 
