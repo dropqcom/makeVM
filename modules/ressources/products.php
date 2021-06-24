@@ -10,10 +10,10 @@
 <body class="content">
 	<h1> Take a look at all my products... </h1>
 	<ul>
-		<li><img src="flower1.jpeg" style="width:50px;height:60px;"></li>
-		<li><img src="flower2.jpeg" style="width:50px;height:60px;"></li>
-		<li><img src="flower3.jpeg" style="width:50px;height:60px;"></li>
-		<li><img src="flower4.jpeg" style="width:50px;height:60px;"></li>	
+		<li><img src="flower1.jpg" style="width:50px;height:60px;"></li>
+		<li><img src="flower2.jpg" style="width:50px;height:60px;"></li>
+		<li><img src="flower3.jpg" style="width:50px;height:60px;"></li>
+		<li><img src="flower4.jpg" style="width:50px;height:60px;"></li>	
 	</ul>
 </body>
 

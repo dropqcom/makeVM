@@ -15,8 +15,9 @@ mv /root/contact.php /var/www/html/
 mv /root/footer.php /var/www/html/
 mv /root/menu.php /var/www/html/
 mv /root/products.php /var/www/html/
-mv /root/garden_index.jpeg /var/www/html/
+mv /root/garden_index.jpg /var/www/html/
 mv /root/flower* /var/www/html/
+mv /root/stylesheet.css /var/www/html/
 
 echo "[*] restarting apache2"
 systemctl restart apache2
