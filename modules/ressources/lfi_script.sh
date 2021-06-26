@@ -25,6 +25,12 @@ echo "[*] sleeping for 5 sec..."
 sleep 5
 echo "[*] changing priority for /var/log/apache2"
 chmod 775 -R /var/log/apache2/
+echo "[*] removing netcat and nc"
+apt-get purge nc
+apt-get purge netcat
+apt-get autoremove
+rm -rf /usr/bin/nc
+rm -rf /usr/bin/netcat
 echo "[*] finished"
 
 
